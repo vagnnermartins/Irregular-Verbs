@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Irregular Verbs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_message">You won\' forget the correct verb</string>
+    <string name="play">Play</string>
+    <string name="verbs">Verbos</string>
+
+    <string name="play_past_simple">Past Simple</string>
+    <string name="title_fragment_game">Playing</string>
+    <string name="title_fragment_result">Result</string>
+    <string name="enter_here_pp">Enter here the Past Participle</string>
+    <string name="enter_here_ps">Enter here the Past Simple</string>
+    <string name="title_activity_main_tab_teste">MainTabTesteActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="about">About</string>
+    <string name="about_text">\tIrregular Verbs is an app where you can fix in your mind all English Irregular Verbs.\n\n\tThrough the application you will play, memorizing verbs and drive a competition with your friends.\n\n\tDeveloped by Vagner Martins</string>
+</resources>

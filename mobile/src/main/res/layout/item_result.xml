@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/tile_heigth"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/text_padding_left"
+    android:paddingRight="@dimen/text_padding_left"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/item_result_infinitive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fly"
+        android:textAllCaps="true"
+        android:textColor="?colorPrimaryDark"
+        android:textSize="@dimen/infinitive_verb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/item_result_first_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_result_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:text="Flew"
+                android:textColor="?colorPrimaryDark"
+                android:textSize="@dimen/primary_text_font" />
+
+            <TextView
+                android:id="@+id/item_result_first_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:text="Flew"
+                android:textColor="@color/second_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_result_second_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_result_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:text="Flown"
+                android:textColor="?colorPrimaryDark"
+                android:textSize="@dimen/primary_text_font" />
+
+            <TextView
+                android:id="@+id/item_result_second_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:text="Flown"
+                android:textColor="@color/second_text" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
